@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <title>Memory Game</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    <h1>Memory Game</h1>
+    <p>
+      <p id = "p1">
+        <!-- text filled in dynamically, contains rules and high score information -->
+      </p>
+      <p id = "p2"> 
+        <!-- text filled in dynamically, records time remaining to guess -->
+      </p>
+    <div id = "heroBtn">
+      <button id="startBtn" onclick="startGame()"><p>Start</p></button>
+      <button id="stopBtn" class="hidden" onclick="stopGame()"><p>Stop</p></button>
+    </div>
+    </p>
+    
+    <div id="gameButtonArea">
+      <button id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()"></button>
+      <button id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()"></button>
+      <button id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()"></button>
+      <button id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()"></button>
+      <button id="button5" onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone()"></button>
+      <button id="button6" onclick="guess(6)" onmousedown="startTone(6)" onmouseup="stopTone()"></button>
+    </div>
+
+  </body>
+</html>
