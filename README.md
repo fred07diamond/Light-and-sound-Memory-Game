@@ -33,22 +33,26 @@ The following **optional** features are implemented:
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
 ![](gif1-link-here)
-![](gif2-link-here)
-![](gif3-link-here)
-![](gif4-link-here)
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
-[YOUR ANSWER HERE]
+W3Schools, StackOverflow, Slack to communicate with developers from companies I have worked in previously.
+
+
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-[YOUR ANSWER HERE]
+
+One of my biggest challenges for this project was focusing on functionality rather than simply design. I am a designer at heart and so I really focused on the look and feel of the game. I focused a lot on the look of the text and the CSS as well. Another issue that I came across was a simple one. I had a problem understanding how the Javascript was affecting the HTML. I realized that I didn’t entirely understand the document method that was being used and I didn’t understand its scheme in the entirety of the code. I used StackOverflow to find my mistakes. Continually, where I found myself most challenged was creating the tones and having them be as cohesive as possible. I came across the problem early on where my tones were not working the way they were supposed to (delay issue). I then realized that there was a problem with the function that I was writing. I had made a typo in one of the variables that I had no idea where to find and where I went wrong. I tried to make the code look pretty, rather than coding the proper portion. I tried to simplify the code, and through much trial and error, I was able to figure out how the tones worked. I mainly did this by learning about how the tones worked in JavaScript. I finally applied this new information into my code, as well as some help from some peers and the code worked and produced the tones! 
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+
+My main question when it comes to web development when it comes to this project relates to how I would create a project like this from scratch. When given the barebones of the project it is relatively simple to find where everything goes. I want to know what a process like this would look like on a grand scale. In a large company, how would one go about creating all the files and resources and how would the communication work. As well as how would you disseminate this information with a team of engineers. It is incredibly interesting because I think that creating personal projects is important and being able to include proprietary techniques would make personal projects that much better.
+
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+
+I would definitely branch this project out and add different modes for the game. Maybe like a function that would switch the game from a normal mode to a rapid mode where the buttons light up quickly from the start making it even more challenging for the player. I would also add a tutorial to introduce the game to newcomers that may not be entirely familiar with games like these. This would also improve the UX by creating new ways to interact with the site. Continually I would add a feature where you could play with others. I think that adding a competitive aspect to the game would give it a new edge. Maybe you could connect to a server and play with random people around the world to try to beat their records. Furthermore, this could bring on the introduction of a leaderboard system that could be shown on the screen to increase that competitive nature.
+
 
 
 
